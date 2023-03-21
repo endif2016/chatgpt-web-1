@@ -17,7 +17,7 @@ export function defaultSetting(): UserState {
     userInfo: {
       avatar: '',
       name: 'zjl',
-      description: 'gpt镜像, 在Prompt Store中增加角色提问辅助语句，使用时通过输入斜杆/选择导入',
+      description: 'zjl(微end-if)个人使用',
     },
   }
 }

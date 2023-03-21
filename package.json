@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
+    "bm": "pnpm build && rm -r ../gpt-front-dist/dist && cp -r ./dist ../gpt-front-dist/dist",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --noEmit",
